@@ -31,11 +31,20 @@ Cuando se abra la ventana de cypress elegimos la opción E2E testing, escogemos 
 
 ## Segundo ejercicio
 
-Para ejecutar el script de python lo único que se necesita es tener la versión de python 3.10 instalada (esta es la versión que tengo instalada, pero es seguro que corra con versiones anteriores 3.x).
+Para ejecutar el script de python lo único que se necesita es tener la versión de python 3.7 instalada e instalar la dependencia 'requests' (esta es la versión que tengo instalada, con la versión 3.11 no corre la versión alternativa del ejercicio con apache beam, si quieres correr la versión alternativa te recomiendo la 3.7).
+
+Para instalar las dependencias de requests y apache beam ejecuta:
+
+```
+pip install requests
+
+pip install apache-beam
+```
 
 Para ejecutarlo solo tienes que ejecutar el siguiente comando:
 
 ```
+
 python request.py
 ```
 or
