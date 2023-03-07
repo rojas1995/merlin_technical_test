@@ -61,8 +61,12 @@ url = "https://petstore.swagger.io/v2/pet/findByStatus?status=sold"
 
 response = requests.request("GET", url)
 
+print('list pets response')
+print(response.text)
 pets_list = list(map(get_id_name, response.json()))
 
+print('full list of id-name')
+print(pets_list)
 pets = Pet(pets_list)
 
 print('result of how many pets have equal names')
