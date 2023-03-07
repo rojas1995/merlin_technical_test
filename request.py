@@ -1,6 +1,6 @@
 import requests
-import apache_beam as beam
-from apache_beam import PCollection
+#import apache_beam as beam
+#from apache_beam import PCollection
 import json
 
 
